@@ -1,9 +1,10 @@
 # simple_task_mngt_crud_backend
 TASK MANAGEMENT SYSTEM (Backend) using Laravel 9/MySQL
 
-Apache httpd-2.4.35
-PHP version - PHP 8.0.30
-MySQL version - MySQL 5.7.24
+## TECH REQUIREMENTS
+- Apache httpd-2.4.35
+- PHP version - PHP 8.0.30
+- MySQL version - MySQL 5.7.24
 
 PHP extension requirements for Laravel 9 (uncomment this extension in php.ini file)
 - OpenSSL PHP Extension
