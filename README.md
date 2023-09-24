@@ -20,3 +20,4 @@ PHP extension requirements for Laravel 9 (uncomment this extension in php.ini fi
 4. Create the database
 5. Run `php artisan migrate` to generate the tables
 6. Run `php artisan serve`
+7. Browse `http://127.0.0.1:8000`
