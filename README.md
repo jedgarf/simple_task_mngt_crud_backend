@@ -1,6 +1,8 @@
 # simple_task_mngt_crud_backend
 TASK MANAGEMENT SYSTEM (Backend) using Laravel 9/MySQL
 
+Browser I used: Firefox Developer Edition
+
 ## TECH REQUIREMENTS
 - Apache httpd-2.4.35
 - PHP version - PHP 8.0.30
