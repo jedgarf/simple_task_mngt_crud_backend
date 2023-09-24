@@ -13,7 +13,7 @@ PHP extension requirements for Laravel 9 (uncomment this extension in php.ini fi
 - Tokenizer PHP Extension
 - XML PHP Extension
 
-## INSTALLATION
+## INSTALLATIONS
 1. Clone the repository
 2. Rename .env.example to .env
 3. Configure .env file (API_TOKEN, DATABASE CREDENTIALS and etc.)
