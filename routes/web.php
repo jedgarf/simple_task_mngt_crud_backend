@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Controllers
+use App\Http\Controllers\TasksController;
+
+// Middlewares
+// use App\Http\Middleware\CheckLoginSession;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +20,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return response()->json('Welcome to Simple Task Management API', 200);
 });
+
+Route::get('task/filter/{id}', [TasksController::class, 'showOne'])->middleware('token_validation');
+Route::post('task/create', [TasksController::class, 'store'])->middleware('token_validation');
+Route::get('task/read', [TasksController::class, 'show'])->middleware('token_validation');
+Route::post('task/update/{id}', [TasksController::class, 'update'])->middleware('token_validation');
+Route::get('task/delete/{id}', [TasksController::class, 'destroy'])->middleware('token_validation');
